@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.hidden-header {
+    display: none;
+}
+
+.conteneur {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Aleo', sans-serif;
+    color:#e1d8cf;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+
+.informations {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+.colonnegauche {
+    background-color: #e1dbcf;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #373741;
+    padding: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 2rem;
+}
+
+.soustitre {
+    text-align: center;
+    color:white;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+
+h2{
+    background-color: #373741;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.section {
+    margin-left: 10px;
+}
+
+.colonnedroite {
+    margin-bottom: 30px;
+}
+
+.colonnedroite .section {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+ h3 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.section1 {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+
+em {
+    font-size: 0.8rem;
+}
+
+.soixantedix {
+font-size: 0.7rem;
+}
+
+.soixantedix li {
+    margin-top: 5px;
+}
+
+a:hover {
+opacity: 0.5;
+}
+
+.linkedin {
+    margin: 50px auto;
+    width: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .conteneur {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hidden-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        background: #373741;
+    }
+    
+    h1 {
+        font-size: 4rem;
+        color: #e1d8cf;
+        font-family: 'Aleo', sans-serif;
+    }
+    
+    
+    .header {
+        display: none;
+    }
+    
+    img {
+        margin: 50px auto;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    .colonnegauche {
+    
+        font-size: 2rem;
+    }
+
+    .soustitre {
+        font-size: 1.7rem;
+    }
+
+    
+    h2{
+        font-size: 2.3rem;
+    }
+
+    h3 {
+       font-size: 2.2rem;
+    }
+
+    .section1 {
+    display: none;
+    }
+    em {
+        font-size: 2rem;
+    }
+    
+    .soixantedix {
+    font-size: 1.8rem;
+    }
+
+    .colonnedroite .section {
+        margin: 50px 20px;
+    }
+
+    .colonnedroite {
+        margin-bottom: 70px;
+    }
+}
